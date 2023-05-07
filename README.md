@@ -21,4 +21,4 @@ tags:
 - ai-detection
 ---
 
-This is a fine-tuned text classification model based on RoBERTa-base (see https://huggingface.co/roberta-base). The model is trained to detect machine-generated text, and is trained on generated scientific abstracts by ChatGPT and real abstracts of arxiv papers.
+This is a fine-tuned text classification model based on RoBERTa-base (see https://huggingface.co/roberta-base). The model is trained to detect machine-generated text, and is trained on generated scientific abstracts by **ChatGPT** and real abstracts of arxiv papers.
