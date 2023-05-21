@@ -87,7 +87,7 @@ It contains text classification models trained to distinguish human-written text
 
 The dataset card for the dataset that was created in relation to this project can be found [here](https://huggingface.co/datasets/NicolaiSivesind/human-vs-machine).
 
-**NOTE**: the hosted inference on this site only works for the RoBERTa-models, and not for the Bloomz-models. 
+**NOTE**: the hosted inference on this site only works for the RoBERTa-models, and not for the Bloomz-models. The Bloomz-models otherwise can produce wrong predictions when not explicitly providing the attention mask from the tokenizer to the model for inference. To be sure, the [pipeline](https://huggingface.co/docs/transformers/main_classes/pipelines)-library seems to produce the most consistent results.
 
 
 ## Fine-tuned detectors
