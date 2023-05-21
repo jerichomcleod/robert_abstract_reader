@@ -21,4 +21,43 @@ tags:
 - ai-detection
 ---
 
+# Machine-generated text (MGT)-detection by fine-tuning of language models
+
 This is a text classification model for detecting machine-generated text and is fine-tuned from **RoBERTa-base** (see https://huggingface.co/roberta-base). The model is trained on generated scientific abstracts by **ChatGPT** and real scientific abstracts of arxiv papers.
+
+
+
+
+## Fine-tuned models
+
+| Base-model | RoBERTa-base                                                                   | Bloomz-560m                                                                                | Bloomz-1b7                                                                               | Bloomz-3b                                                                              |
+|------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| Wiki       | [roberta-wiki](https://huggingface.co/andreas122001/roberta-academic-detector) | [Bloomz-560m-wiki](https://huggingface.co/andreas122001/bloomz-560m-wiki-detector)         | [Bloomz-1b7-wiki](https://huggingface.co/andreas122001/bloomz-1b7-wiki-detector)         | [Bloomz-3b-wiki](https://huggingface.co/andreas122001/bloomz-3b-wiki-detector)         |
+| Academic   | [roberta-academic](https://huggingface.co/andreas122001/roberta-wiki-detector) | [Bloomz-560m-academic](https://huggingface.co/andreas122001/bloomz-560m-academic-detector) | [Bloomz-1b7-academic](https://huggingface.co/andreas122001/bloomz-1b7-academic-detector) | [Bloomz-3b-academic](https://huggingface.co/andreas122001/bloomz-3b-academic-detector) |
+| Mixed      | [roberta-mixed](https://huggingface.co/andreas122001/roberta-mixed-detector)   | [Bloomz-560m-mixed](https://huggingface.co/andreas122001/bloomz-560m-mixed-detector)       | [Bloomz-1b7-mixed](https://huggingface.co/andreas122001/bloomz-1b7-mixed-detector)       | [Bloomz-3b-mixed](https://huggingface.co/andreas122001/bloomz-3b-mixed-detector)       |
+
+
+## Credits
+
+- [GPT-wiki-intro](https://huggingface.co/datasets/aadityaubhat/GPT-wiki-intro), by Aaditya Bhat
+- [arxiv-abstracts-2021](https://huggingface.co/datasets/gfissore/arxiv-abstracts-2021), by Giancarlo
+- [Bloomz](bigscience/bloomz), by BigScience
+- [RoBERTa](https://huggingface.co/roberta-base), by Liu et. al.
+
+
+
+
+## Citation
+
+Please use the following citation:
+
+```
+@misc {sivesind_2023,
+    author       = { {Nicolai Thorer Sivesind} and {Andreas Bentzen Winje}},
+    title        = { MGT-Detection },
+    url          = {https://huggingface.co/andreas122001/roberta-academic-detector}
+    year         = 2023,
+    publisher    = { Hugging Face }
+}
+```
+
