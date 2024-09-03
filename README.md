@@ -185,7 +185,7 @@ Please use the following citation:
 @misc {sivesind_2023,
     author       = { {Nicolai Thorer Sivesind} and {Andreas Bentzen Winje} },
     title        = { Machine-generated text-detection by fine-tuning of language models },
-    url          = { https://huggingface.co/andreas122001/roberta-academic-detector }
+    url          = { https://huggingface.co/andreas122001/roberta-academic-detector },
     year         = 2023,
     publisher    = { Hugging Face }
 }
